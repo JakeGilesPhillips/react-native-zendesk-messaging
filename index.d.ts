@@ -1,4 +1,4 @@
-declare module '@dropless/react-native-zendesk-messaging' {
+declare module 'react-native-zendesk-messaging' {
   /**
    * Initialises the Zendesk SDK 
    * @param channelKey The channel key configured in Zendesk Admin Centre
