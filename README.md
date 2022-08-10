@@ -33,4 +33,4 @@ Step 1. import ZendeskChat from 'react-native-zendesk-messaging'
 
 ## License
 
-React Native is MIT licensed, as found in the [LICENSE](https://github.com/Saranshmalik/react-native-zendesk/LICENSE) file.
+React Native is MIT licensed, as found in the [LICENSE](https://github.com/dropless/react-native-zendesk-messaging.git/LICENSE) file.

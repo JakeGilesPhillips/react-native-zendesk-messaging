@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.source         = { git: "https://github.com/droplessjake/react-native-zendesk-messaging.git" }
+  s.source         = { git: "https://github.com/dropless/react-native-zendesk-messaging.git" }
   s.requires_arc   = true
   s.platform       = :ios, '10.0'
 
