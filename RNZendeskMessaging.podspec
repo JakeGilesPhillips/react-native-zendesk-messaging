@@ -12,9 +12,7 @@ Pod::Spec.new do |s|
   s.platform       = :ios, '10.0'
   s.source         = { git: "https://github.com/dropless/react-native-zendesk-messaging.git", tag: "v#{s.version}" }
   s.requires_arc   = true
-
-  s.framework    = 'Foundation'
-  s.framework    = 'UIKit'
+  s.source_files = 'ios/*.{h,m}'
 
   s.dependency 'React'
   s.dependency 'ZendeskSDKMessaging'
