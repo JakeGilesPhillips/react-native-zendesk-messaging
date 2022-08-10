@@ -1,4 +1,6 @@
-React native wrapper for zendesk messaging SDK. Supports both iOS and Android platforms.
+React native wrapper for the Zendesk Messaging SDK. 
+
+Supports both iOS and Android platforms.
 
 ## Getting Started
 
@@ -27,9 +29,25 @@ React native wrapper for zendesk messaging SDK. Supports both iOS and Android pl
 
 In your code add:
 
-Step 1. import ZendeskChat from 'react-native-zendesk-messaging'
+1. Import the package
+    import RNZendeskMessaging from 'react-native-zendesk-messaging'
 
-### Initialisation
+2. Initialise the Zendesk Messaging SDK
+    Place this code at the root of your react native application:
+    `RNZendeskMessaging.initialise(<channelKey>);`
+    
+3. Show the Messaging window
+    `RNZendeskMessaging.showMessaging();`
+    
+## Notes
+
+This package is built upon the [Zendesk Messaging/Web SDK](https://developer.zendesk.com/documentation/zendesk-web-widget-sdks/) and was created as there was no existing package for this SDK available. It should not be confused with the [Zendesk Classic SDK](https://developer.zendesk.com/documentation/classic-web-widget-sdks/) of which there are many good and easy to use packages available. 
+
+The two SDK's are incompatible until Zendesk release their own react-native library.
+
+The benefits of the Messaging SDK over the chat SDK are the ability to use the Messaging flows and configurations of Zendesk V2.
+
+Should you require the classic Chat/Support functionality of Zendesk you are better suited using an existing package such as [this one by QSuraj](https://github.com/QSuraj/react-native-zendesk-v2) or [this one from TaskRabbit](https://github.com/taskrabbit/react-native-zendesk-chat). 
 
 ## License
 
