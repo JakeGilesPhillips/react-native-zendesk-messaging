@@ -1,5 +1,5 @@
 {
-  "name": "react-native-zendesk-messaging",
+  "name": "@dropless/react-native-zendesk-messaging",
   "version": "1.0.0",
   "description": "React Native implementation of zendesks Messaging SDK",
   "main": "index.js",
