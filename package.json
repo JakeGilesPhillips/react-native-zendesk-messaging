@@ -2,10 +2,15 @@
   "name": "@dropless/react-native-zendesk-messaging",
   "version": "1.0.0",
   "description": "React Native wrapper for the Zendesk Messaging SDK",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.js",
+  "files": [
+    "lib/**/*",
+    "ios/**/*",
+    "android/**/*",
+    "*.podspec"
+  ],
+  "homepage": "https://github.com/dropless/react-native-zendesk-messaging.git",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dropless/react-native-zendesk-messaging.git"
@@ -18,14 +23,16 @@
     "zendesk-messaging",
     "messaging"
   ],
-  "homepage": "https://github.com/dropless/react-native-zendesk-messaging.git",
   "author": "Jake Giles-Phillips (dropless)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dropless/react-native-zendesk-messaging/issues"
+  },
   "peerDependencies": {
     "react": ">=16.11.0",
     "react-native": ">=0.60.0"
   },
-  "bugs": {
-    "url": "https://github.com/dropless/react-native-zendesk-messaging/issues"
+  "devDependencies": {
+    "@types/react-native": "^0.69.5"
   }
 }
