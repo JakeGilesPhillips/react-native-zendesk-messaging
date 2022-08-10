@@ -1,0 +1,28 @@
+{
+  "name": "react-native-zendesk-messaging",
+  "version": "1.0.0",
+  "description": "React Native implementation of zendesks Messaging SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/droplessjake/react-native-zendesk-messaging.git"
+  },
+  "keywords": [
+    "react-native",
+    "zendesk",
+    "zendesk-chat",
+    "react-native-zendesk",
+    "zendesk-messaging",
+    "messaging"
+  ],
+  "homepage": "https://github.com/droplessjake/react-native-zendesk-messaging.git",
+  "author": "Jake Giles-Phillips (dropless)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.11.0",
+    "react-native": ">=0.60.0"
+  }
+}
