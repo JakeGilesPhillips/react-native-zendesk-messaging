@@ -21,8 +21,10 @@ RCT_EXPORT_METHOD(initialise: (NSString *)key) {
 RCT_EXPORT_METHOD(showMessaging) {
   UIViewController *zendeskController = [Zendesk.instance.messaging messagingViewController];
   if (zendeskController != NULL) {
-    UIViewController *reactController = RCTPresentedViewController();
-    [reactController presentViewController:zendeskController animated:YES completion:nil];
+    dispatch_sync(dispatch_get_main_queue(), ^{
+      UIViewController *reactController = RCTPresentedViewController();
+      [reactController presentViewController:zendeskController animated:YES completion:nil];
+    })
   }
 }
 
