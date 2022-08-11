@@ -24,7 +24,7 @@ RCT_EXPORT_METHOD(showMessaging) {
     dispatch_sync(dispatch_get_main_queue(), ^{
       UIViewController *reactController = RCTPresentedViewController();
       [reactController presentViewController:zendeskController animated:YES completion:nil];
-    })
+    });
   }
 }
 
