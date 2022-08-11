@@ -1,8 +1,8 @@
 
 #import "RNZendeskMessaging.h"
 
-#import <ZendeskSDKMessaging/ZendeskSDKMessaging.h>
 #import <ZendeskSDK/ZendeskSDK.h>
+#import <ZendeskSDKMessaging/ZendeskSDKMessaging.h>
 
 @implementation RNZendeskMessaging
 
@@ -20,9 +20,9 @@ RCT_EXPORT_METHOD(initialise: (NSString *)key) {
 
 RCT_EXPORT_METHOD(showMessaging) {
   UIViewController *zendeskController = [Zendesk.instance.messaging messagingViewController];
-  UIViewController *viewController = RCTPresentedViewController();
-  if (zendeskController != NULL && viewController != NULL) {
-    [viewController showViewController:viewController];
+  if (zendeskController != NULL) {
+    UIViewController *reactController = RCTPresentedViewController();
+    [reactController present:zendeskController];
   }
 }
 
