@@ -1,6 +1,6 @@
 {
   "name": "@dropless/react-native-zendesk-messaging",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "React Native wrapper for the Zendesk Messaging SDK",
   "main": "index.js",
   "scripts": {
