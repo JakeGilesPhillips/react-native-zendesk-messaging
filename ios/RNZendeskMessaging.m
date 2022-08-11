@@ -7,7 +7,7 @@
 
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(initialise: (NSString *): key) {
+RCT_EXPORT_METHOD(initialise: (NSString *)key) {
   [Zendesk initializeWithChannelKey:key
     messagingFactory:[[ZDKDefaultMessagingFactory alloc] init]
     completionHandler:^(Zendesk * _Nullable zendesk, NSError * _Nullable error) {
