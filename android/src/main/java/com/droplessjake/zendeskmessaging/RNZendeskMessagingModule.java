@@ -1,5 +1,5 @@
 
-package com.droplessjake.zendeskmessaging;
+package com.droplessjake.reactnativezendeskmessaging;
 
 import android.app.Activity;
 import android.content.Context;

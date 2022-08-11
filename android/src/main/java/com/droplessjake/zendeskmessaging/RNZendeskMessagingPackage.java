@@ -1,4 +1,4 @@
-package com.droplessjake.zendeskmessaging;
+package com.droplessjake.reactnativezendeskmessaging;
 
 import java.util.Arrays;
 import java.util.Collections;
