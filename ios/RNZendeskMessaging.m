@@ -22,7 +22,7 @@ RCT_EXPORT_METHOD(showMessaging) {
   UIViewController *zendeskController = [Zendesk.instance.messaging messagingViewController];
   UIViewController *viewController = RCTPresentedViewController();
   if (zendeskController != NULL && viewController != NULL) {
-    [viewController present:viewController true];
+    [viewController present:viewController];
   }
 }
 
