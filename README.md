@@ -27,10 +27,8 @@ Supports both iOS and Android platforms.
 
 ## Usage
 
-In your code add:
-
 1. Import the package
-    import RNZendeskMessaging from 'react-native-zendesk-messaging'
+    `import RNZendeskMessaging from 'react-native-zendesk-messaging'`
 
 2. Initialise the Zendesk Messaging SDK
     Place this code at the root of your react native application:
